@@ -1,0 +1,53 @@
+name: flutter_ui_kits
+description: "A premium Flutter UI Kit with Senior Architecture."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 1.0.8
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  bloc: ^9.2.0
+  equatable: ^2.0.8
+
+  # DI
+  get_it: ^9.2.1
+  injectable: ^2.7.1+4
+
+  # Routing
+  go_router: ^17.2.0
+
+  # Networking & Data
+  dio: ^5.9.2
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+  fpdart: ^1.2.0
+  flutter_secure_storage: ^10.0.0
+  cached_network_image: ^3.4.1
+  logger: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 5.0.0
+
+  # Code Generation
+  build_runner: ^2.13.1
+  freezed: ^3.2.3
+  json_serializable: ^6.11.2
+  injectable_generator: ^2.9.1
+
+  # Testing
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.5
+
+flutter:
+  uses-material-design: true
